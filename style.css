@@ -1,14 +1,26 @@
 h1 {
   font-family: Tahoma;
+  color: grey;
   font-size: 24px;
-
+  text-align: center;
+  border: 1px white solid;
+  padding:16px;
+}
 p {
   font-family: Verdana;
+  color: grey;
   font-size: 16px;
+  border: 1px white solid;
+  width: 700px;
+  padding: 16px;
+}
+.top1 {
+  border: 1px white solid;
+  width: 750px;
+  height: 500px;
 }
 
 body {
   font-family: sans-serif;
-  font-color: grey;
   background-color:black;
 }
