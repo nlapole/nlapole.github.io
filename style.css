@@ -1,3 +1,83 @@
+.flex-container {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.flex-container > div {
+  background-color: white;
+  align: center;
+  width: 700px;
+  margin: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.flex-container2 > div {
+  background-color: white;
+  align: center;
+  width: 700px;
+  margin: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.flex-container3 > div {
+  background-color: white;
+  align: center;
+  width: 700px;
+  margin: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.flex-container4 {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.flex-container4 > div {
+  background-color: white;
+  align: center;
+  width: 700px;
+  margin: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.flex-container5 {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  background-color: black;
+}
+
+.flex-container5 > div {
+  background-color: white;
+  align: center;
+  width: 700px;
+  margin: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
 h1 {
   font-family: Tahoma;
   color: grey;
@@ -6,18 +86,13 @@ h1 {
   border: 1px white solid;
   padding:16px;
 }
-p {
+.intro1, .intro2, .intro3, .intro4, .intro5 {
   font-family: Verdana;
   color: grey;
   font-size: 16px;
   border: 1px white solid;
   width: 700px;
   padding: 16px;
-}
-.top1 {
-  border: 1px white solid;
-  width: 750px;
-  height: 500px;
 }
 
 body {
