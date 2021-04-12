@@ -7,7 +7,7 @@ h1 {
 }
 p {
   font-family: Verdana;
-  color: lightslategray;
+  color: #778899;
   font-size: 12px;
 }
 
@@ -17,36 +17,43 @@ p {
 
 }
 body {
-  
   background-color: black;
 }
-
-/*.container {
-  display: flex;
-  flex-direction: column;
-}*/
 
 .maiSty {
   display:flex;
   justify-content: center;
-  border: 1px lightslategray dashed;
+  border: 2px slategray solid;
 }
-.curSerCon {
+/*.maiSty styling doesn't operate on <a> tag*/
+a {
+  display: flex;
+  justify-content: center;
+}
+
+.curPreCon {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
-    .curSerTitle {
-      grid-area: 1/1/1/4;
+    .curPreTitle {
+      grid-area: 1/1/1/5;
     }
-    .curSer1 {
+    .curPre1 {
       grid-area: 2/1/3/2;
+      background-color: #c47b46;
     }
-    .curSer2 {
+    .curPre2 {
       grid-area: 2/2/3/3;
+      background-color: #c47b46;
     }
-    .curSer3 {
+    .curPre3 {
       grid-area: 2/3/3/4;
+      background-color: #c47b46;
+    }
+    .curPre4 {
+      grid-area: 2/4/3/5;
+      background-color: #c47b46;
     }
 .curCarCon {
   display: grid;
@@ -57,13 +64,16 @@ body {
       grid-area: 1/1/1/4;
     }
     .curCar1 {
-      grid-area: 2/1/3/4;
+      grid-area: 2/1/3/2;
+      background-color: #507d2a;
     }
     .curCar2 {
       grid-area: 2/2/3/3;
+      background-color: #507d2a;
     }
     .curCar3 {
       grid-area: 2/3/3/4;
+      background-color: #507d2a;
     }
 .curWriCon {
   display: grid;
@@ -74,13 +84,16 @@ body {
       grid-area: 1/1/1/4;
     }
     .curWri1 {
-      grid-area: 2/1/3/4;
+      grid-area: 2/1/3/2;
+      background-color: #5D1F1E;
     }
     .curWri2 {
       grid-area: 2/2/3/3;
+      background-color: #5D1F1E;
     }
     .curWri3 {
       grid-area: 2/3/3/4;
+      background-color: #5D1F1E;
     }
 
 .oldWorCon {
@@ -92,7 +105,7 @@ body {
       grid-area: 1/1/1/4;
     }
     .oldWor1 {
-      grid-area: 2/1/3/4;
+      grid-area: 2/1/3/2;
     }
     .oldWor2 {
       grid-area: 2/2/3/3;
