@@ -83,16 +83,12 @@ a {
     .curWriTitle {
       grid-area: 1/1/1/4;
     }
-    .curWri1 {
-      grid-area: 2/1/3/2;
-      background-color: #5D1F1E;
-    }
-    .curWri2 {
-      grid-area: 2/2/3/3;
-      background-color: #5D1F1E;
-    }
-    .curWri3 {
-      grid-area: 2/3/3/4;
+    .curWri {
+      grid-area: 2/1/3/4;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      
       background-color: #5D1F1E;
     }
 
