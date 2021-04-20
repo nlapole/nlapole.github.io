@@ -14,7 +14,6 @@ p {
 .icon {
   width: 50%;
   height: auto;
-
 }
 body {
   background-color: black;
@@ -23,7 +22,7 @@ body {
 .maiSty {
   display:flex;
   justify-content: center;
-  border: 2px slategray solid;
+  border: 1.5px slategray solid;
 }
 /*.maiSty styling doesn't operate on <a> tag*/
 a {
@@ -55,6 +54,8 @@ a {
       grid-area: 2/4/3/5;
       background-color: #c47b46;
     }
+
+
 .curCarCon {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
@@ -109,3 +110,23 @@ a {
     .oldWor3 {
       grid-area: 2/3/3/4;
     }
+    
+  @media (max-width: 600px){
+  /*Strangely: the <a> tag added some sizing adjustments with the media query as well...*/
+  .curPreCon {
+    display: flex;
+    flex-direction: column;
+  }
+  .curCarCon {
+    display: flex;
+    flex-direction: column;
+  }
+  .curWriCon {
+    display: flex;
+    flex-direction: column;
+  }
+  .oldWorCon {
+    display: flex;
+    flex-direction: column;
+  }
+}
